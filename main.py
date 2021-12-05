@@ -75,6 +75,6 @@ if uploaded_file is not None:
     winter= (label[0][0])
     summer= (label[0][1])
     if winter >= 0.6:
-        st.title("Favorable in Winter.Not suitable in Summer conditions")
+        st.title("Favorable in Winter. Not suitable in Summer conditions")
     elif summer >= 0.6:
         st.title("Favorable in Summers. Not good for Cold Weather")
